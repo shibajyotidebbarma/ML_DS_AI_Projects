@@ -32,6 +32,21 @@ regressor.fit(X_train, y_train)
 
 #Predicting the Test Set Results
 
+y_pred = regressor.predict(X_train)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
