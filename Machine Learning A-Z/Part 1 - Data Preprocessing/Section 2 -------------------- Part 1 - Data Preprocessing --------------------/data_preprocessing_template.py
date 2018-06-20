@@ -18,6 +18,8 @@ Created on Wed Jun 13 00:06:28 2018
 #X[:,1:3] = imputer.transform(X[:,1:3])
 
 
+
+#BEFORE SPLITTING THE DATASET
 #Encoding categorical data
 #from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 #labelencoder_X = LabelEncoder()
