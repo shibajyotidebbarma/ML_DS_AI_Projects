@@ -30,7 +30,7 @@ X = onehotencoder.fit_transform(X).toarray()
 
 
 #Avoiding the Dummy Variable Trap
-
+X=X[:,1:]
 
 
 #Splitting the dataset into Training set and Test Set
@@ -46,7 +46,10 @@ sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
 """
-
+#Fitting Multiple Linear Regression to the Training Set
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+regressor.fit(X_train, y_train)
 
 
 
