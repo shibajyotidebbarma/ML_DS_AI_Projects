@@ -23,3 +23,11 @@ test_set = subset(dataset, split == FALSE)
 # training_set[, 2:3] = scale(training_set[, 2:3])
 # test_set[, 2:3]= scale(test_set[, 2:3])
 
+
+#Fitting Multiple Linear Regression to the Training Set
+regressor = lm(formula = Profit ~ R.D.Spend,
+               data=training_set)
+
+
+
+
