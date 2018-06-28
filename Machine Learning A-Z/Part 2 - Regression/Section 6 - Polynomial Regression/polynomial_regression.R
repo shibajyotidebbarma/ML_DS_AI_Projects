@@ -39,19 +39,40 @@ poly_reg = lm(formula = Salary ~ .,
 
 
 
+#Visualising the Linear Regression Results
+library(ggplot2)
+ggplot() + 
+  geom_point(aes(x= dataset$Level,y= dataset$Salary),
+             colour='red') +
+  geom_line(aes(x= dataset$Level,y= predict(lin_reg, newdata = dataset)),
+            colour='blue') +
+  ggtitle('Truth or Bluff (Linear Regression)') +
+  xlab('Level') +
+  ylab('Salary')
 
 
 
+#Visualising the Polynomial Regression Results
+
+ggplot() + 
+  geom_point(aes(x= dataset$Level,y= dataset$Salary),
+             colour='red') +
+  geom_line(aes(x= dataset$Level,y= predict(poly_reg, newdata = dataset)),
+            colour='blue') +
+  ggtitle('Truth or Bluff (Polynomial Regression)') +
+  xlab('Level') +
+  ylab('Salary')
 
 
 
+#Predicting a new result with Linear Regression
+
+y_pred = predict(lin_reg, data.frame(Level=6.5))
 
 
-
-
-
-
-
+#Predicting a new result with Polynomial Regression
+y_pred = predict(poly_reg, data.frame(Level=6.5,
+                                      Level2 = 6.5^2))
 
 
 
