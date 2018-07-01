@@ -33,14 +33,8 @@ regressor.fit(X, y)
 # Predicting a new result
 y_pred = regressor.predict(6.5)
 
-# Visualising the Decision Tree Regression Model results
-plt.scatter(X, y, color = 'red')
-plt.plot(X, regressor.predict(X), color = 'blue')
-plt.title('Truth or Bluff (Decision Tree Regression Model)')
-plt.xlabel('Position level')
-plt.ylabel('Salary')
-plt.show()
 
+#For non-linear non-continuous model
 # Visualising the Decision Tree Regression Model results (for higher resolution and smoother curve)
 X_grid = np.arange(min(X), max(X), 0.1)
 X_grid = X_grid.reshape((len(X_grid), 1))
