@@ -35,3 +35,8 @@ This repository contains all my projects solutions for Machine Learning A to Z C
 ## Random Forest Regression Project[:file_folder:](https://github.com/shibajyotidebbarma/Machine_Learning_A_to_Z/tree/master/Machine%20Learning%20A-Z/Part%202%20-%20Regression/Section%209%20-%20Random%20Forest%20Regression)
 
 - Built a Regression Model to predict whether a new hired employee is bluffing about his previous salary and what his ideal salary should be according to his level in the company.
+
+
+## Logistic Regression Model Project[:file_folder:](https://github.com/shibajyotidebbarma/Machine_Learning_A_to_Z/tree/master/Machine%20Learning%20A-Z/Part%203%20-%20Classification/Section%2014%20-%20Logistic%20Regression)
+
+- Build a model to classify whether a user buys a product on the basis of their salary and age on a social media network.
