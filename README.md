@@ -40,3 +40,8 @@ This repository contains all my projects solutions for Machine Learning A to Z C
 ## Logistic Regression Model Project[:file_folder:](https://github.com/shibajyotidebbarma/Machine_Learning_A_to_Z/tree/master/Machine%20Learning%20A-Z/Part%203%20-%20Classification/Section%2014%20-%20Logistic%20Regression)
 
 - Build a model to classify whether a user buys a product on the basis of their salary and age on a social media network dataset.
+
+
+## K-Nearest Neighbors Classification Project[:file_folder:](https://github.com/shibajyotidebbarma/Machine_Learning_A_to_Z/tree/master/Machine%20Learning%20A-Z/Part%203%20-%20Classification/Section%2015%20-%20K-Nearest%20Neighbors%20(K-NN))
+
+- Build a model to classify whether a user buys a product on the basis of their salary and age on a social media network dataset.
