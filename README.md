@@ -6,7 +6,7 @@ This repository contains all my projects solutions for Machine Learning A to Z C
 - Built a template in Python and R to preprocess the dataset.
 - Structure different sections for future data modelling processes.
 
-## Simple Linear Regression Project[:file_folder:](https://github.com/shibajyotidebbarma/Machine_Learning_A_to_Z/tree/master/Machine%20Learning%20A-Z/Part%202%20-%20Regression/Section%204%20-%20Simple%20Linear%20Regression) 
+## Simple Linear Regression Project[:file_folder:](https://github.com/shibajyotidebbarma/Machine_Learning_A_to_Z/tree/master/Machine%20Learning%20A-Z/Part%202%20-%20Regression/Section%204%20-%20Simple%20Linear%20Regression)
 
 - Built a Machine Learning Model to predict the Salary based upon the Years of Experience.
 - Preprocess the given data to optimally predict the Job Salary in an Industrial Sector on the basis of the feature of Years of Experience.
@@ -45,3 +45,8 @@ This repository contains all my projects solutions for Machine Learning A to Z C
 ## K-Nearest Neighbors Classification Project[:file_folder:](https://github.com/shibajyotidebbarma/Machine_Learning_A_to_Z/tree/master/Machine%20Learning%20A-Z/Part%203%20-%20Classification/Section%2015%20-%20K-Nearest%20Neighbors%20(K-NN))
 
 - Build a model to classify whether a user buys a product on the basis of their salary and age on a social media network dataset.
+
+
+## Association Rule Learning - Apriori Project[:file_folder:](https://github.com/shibajyotidebbarma/Machine_Learning_A_to_Z/tree/master/Machine%20Learning%20A-Z/Part%205%20-%20Association%20Rule%20Learning/Section%2028%20-%20Apriori)
+
+- Build a model to train the apriori algorithm on dataset of transactions to obtain rules between different products purchased from the shop.
