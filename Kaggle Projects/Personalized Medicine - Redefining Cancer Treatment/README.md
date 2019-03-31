@@ -4,7 +4,7 @@ https://www.kaggle.com/c/msk-redefining-cancer-treatment
 [ Data Link ](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data)
 
 ## Evaluation
-Submissions are evaluated on Multi Class Log Loss between the predicted probability and the observed target.
+Submissions are evaluated on **Multi Class Log Loss** between the predicted probability and the observed target.
 
 ## Overview
 A lot has been said during the past several years about how precision medicine and, more concretely, how genetic testing is going to disrupt the way diseases like cancer are treated.
