@@ -26,6 +26,6 @@ python drive.py
 </p>
 
 <p align="center">
-  <img src="https://github.com/shibajyotidebbarma/Machine_Learning_Data_Science_AI_Projects/blob/master/Self%20Driving%20Car/Self%20Driving%20Car/img/nvidia_arch.JPG" alt="Model Summary"/>
+  <img src="https://github.com/shibajyotidebbarma/Machine_Learning_Data_Science_AI_Projects/blob/master/Self%20Driving%20Car/Self%20Driving%20Car/img/model.JPG" alt="Model Summary"/>
 </p>
 
